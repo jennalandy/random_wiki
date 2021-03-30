@@ -2,18 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.wiki {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +13,17 @@
   color: white;
 }
 
-.App-link {
+.wikibutton {
   color: #61dafb;
+  background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wikibutton:hover {
+  color: #b4efff;
+  font-weight: bold;
 }
